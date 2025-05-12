@@ -5,7 +5,7 @@ config = dotenv_values(".env")
 
 # Configuration
 github_token = config['github_token']
-user_name = 'saiteja93'
+user_name = 'Saiteja93'
 HEADERS = {'Authorization': f'token {github_token}'} # {'Authorization': 'token ' + github_token}
 
 def list_repos(user_name):
